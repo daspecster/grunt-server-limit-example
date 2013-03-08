@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "grunt-server-limit-example",
   "version": "0.0.0",
   "dependencies": {
     "sass-bootstrap": "~2.3.0",

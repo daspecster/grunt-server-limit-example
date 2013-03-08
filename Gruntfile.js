@@ -1,4 +1,4 @@
-// Generated on 2013-03-06 using generator-webapp 0.1.5
+// Generated on 2013-03-08 using generator-webapp 0.1.5
 'use strict';
 var lrSnippet = require('grunt-contrib-livereload/lib/utils').livereloadSnippet;
 var mountFolder = function (connect, dir) {
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         yeoman: yeomanConfig,
-	livereload: {port: 36000},
+        livereload: {port: 36000},
         watch: {
             coffee: {
                 files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
